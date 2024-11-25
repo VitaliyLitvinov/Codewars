@@ -7,11 +7,8 @@
 # Return true if you're better, else false!
 
 def better_than_average(class_points, your_points):
-    average_point_class = sum(class_points) / len(class_points)
-    if average_point_class <= your_points:
-        return True
-    else:
-        return False
+    average = (sum(class_points) + your_points) / (len(class_points) + 1)
+    return your_points > average
 
 
 print(better_than_average((3, 2),1))
