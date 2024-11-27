@@ -12,3 +12,8 @@ def summation(num):
         num -= 1
     return sum
 print(summation(8))
+
+#          OR
+
+def summation(num):
+    return sum(range(1,num+1))
