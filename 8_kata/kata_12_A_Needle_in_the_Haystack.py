@@ -8,10 +8,10 @@
 #
 # "found the needle at position " plus the index it found the needle,
 
-x = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]
+x = ['3', '123124234', None, 'needle', 'world', 'hay', 2, '3', True, False]
 
 def find_needle(haystack):
     index = haystack.index('needle')
-    print("found the needle at position ", index)
+    print("found the needle at position", str(index))
 
 find_needle(x)
