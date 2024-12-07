@@ -15,3 +15,4 @@ def nb_year(p0, percent, aug, p):
 nb_year(1500, 5, 100, 5000)
 nb_year(1500000, 2.5, 10000, 2000000)
 nb_year(1500000, 0.25, 1000, 2000000)
+print(int(2.8))
