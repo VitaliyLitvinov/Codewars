@@ -1,3 +1,4 @@
+# Найти сумму чисел кратных 3 или 5 и меньших заданному N
 def solution(number):
     list_number = set()
     for i in range(1, number):
